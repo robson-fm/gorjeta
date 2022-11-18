@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700|PT++Mono);
+
+:root {
+   --primary-color: rgb(211, 170, 170);
+   --secondary-color: dimgrey;
+   --tertiary-color: gainsboro;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+#container{
+
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background:var(--tertiary-color);
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;
+}
+
+.title{
+
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    padding: 20px;
+    font-size: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsform{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput{
+
+    background: rgb(248, 245, 245);
+    border-radius: 20px;
+    padding: 5px 8px;
+    width: 70px;
+    border: solid rgb(224, 211, 211);
+}
+
+.formInput:focus{
+
+    border:  3px solid var(--secondary-color);
+}
+
+.formSelect{
+
+    width: 160px;
+    border-radius: 20px;
+    border: solid rgb(189, 185, 185);
+    
+}
+
+.formSubmit{
+
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--primary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    border: solid  rgb(124, 122, 122);
+    box-shadow: 5px 5px 5px gray;
+    transition: 2s;
+}
+.formSubmit:hover{
+
+    width: 210px;
+    height: 60px;
+    color: rgb(39, 36, 36);
+    border: solid  rgb(34, 33, 33);
+    background: pink;
+    box-shadow: 5px 5px 5px rgb(77, 75, 75);
+} 
+#totalTip{
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
